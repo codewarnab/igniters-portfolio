@@ -1,69 +1,374 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-      <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <!--=============== REMIXICONS ===============-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
-      <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
+   <!--=============== REMIXICONS ===============-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
 
-      <title>Responsive portfolio website Rian - Bedimcode</title>
-   </head>
-   <body>
-      <!--==================== HEADER ====================-->
-      <header class="header" id="header">
-         
-      </header>
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
 
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME ====================-->
-         <section class="home section" id="home">
-            
-         </section>
+   <title>Responsive portfolio website Rian</title>
+</head>
 
-         <!--==================== ABOUT ====================-->
-         <section class="about section" id="about">
-            
-         </section>
+<body>
+   <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="#" class="nav__logo">
+            <!-- ================= EDIT HERE: YOUR INITIAL ================= -->
+            <span class="nav__logo-circle">R</span>
+            <!-- ================= EDIT HERE: YOUR NAME ================= -->
+            <span class="nav__logo-name">Rian Lot.</span>
+         </a>
 
-         <!--==================== SERVICES ====================-->
-         <section class="services section">
-            
-         </section>
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li class="nav__item">
+                  <a href="#home" class="nav__link active-link">Home</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#about" class="nav__link">About Me</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#projects" class="nav__link">Projects</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#contact" class="nav__link nav__link-button">Contact Me</a>
+               </li>
+            </ul>
 
-         <!--==================== PROJECTS ====================-->
-         <section class="projects section" id="projects">
-            
-         </section>
+            <!-- Close button -->
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-line"></i>
+            </div>
+         </div>
 
-         <!--==================== CONTACT ====================-->
-         <section class="contact section" id="contact">
-            
-         </section>
-      </main>
+         <!-- Toggle button -->
+         <div class="nav__buttons">
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
 
-      <!--==================== FOOTER ====================-->
-      <footer class="footer">
-         
-      </footer>
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-4-line"></i>
+            </div>
+         </div>
+      </nav>
+   </header>
 
-      <!--========== SCROLL UP ==========-->
-      
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+         <div class="home__container container grid">
+            <div class="home__content">
+               <div class="home__data">
+                  <!-- ================= EDIT HERE: YOUR NAME ================= -->
+                  <h1 class="home__name">Rian Lot</h1>
 
-      <!--=============== SCROLLREVEAL ===============-->
-      <script src=""></script>
-      
-      <!--=============== EMAIL JS ===============-->
-      
+                  <h3 class="home__profession">
+                     <!-- ================= EDIT HERE: YOUR PROFESSION/ROLE ================= -->
+                     <span class="home__profession-line"></span>
+                     <span class="home__profession-title"><strong>Frontend Developer</strong>, with knowledge
+                        in web development and design, I
+                        offer the best projects resulting in
+                        quality work.</span>
+                  </h3>
+               </div>
 
-      <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
-   </body>
+               <div class="home__scroll">
+                  <div class="home__scroll-box">
+                     <i class="ri-arrow-down-s-line"></i>
+                  </div>
+                  <span class="home__scroll-text">Scroll Down</span>
+               </div>
+            </div>
+
+            <div class="home__image">
+               <div class="home__perfil">
+                  <div class="geometric-box"></div>
+                  <img src="assets/img/home-perfil.jpg" alt="Rian Lot" class="home__img">
+                  <div class="home__shadow"></div>
+                  <img src="assets/img/curved-arrow.svg" alt="" class="home__arrow">
+                  <img src="assets/img/random-lines.svg" alt="" class="home__line">
+               </div>
+
+               <div class="home__social">
+                  <!-- ================= EDIT HERE: SOCIAL LINKS ================= -->
+                  <a href="https://instagram.com/" target="_blank" class="home__social-link">
+                     <i class="ri-instagram-line"></i>
+                  </a>
+                  <a href="https://linkedin.com/" target="_blank" class="home__social-link">
+                     <i class="ri-linkedin-box-line"></i>
+                  </a>
+                  <a href="https://github.com/" target="_blank" class="home__social-link">
+                     <i class="ri-github-line"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+         <div class="about__container container grid">
+            <div class="about__image">
+               <div class="about__perfil">
+                  <div class="geometric-box"></div>
+                  <img src="assets/img/about-perfil.jpg" alt="About Rian" class="about__img">
+                  <div class="about__shadow"></div>
+                  <img src="assets/img/random-lines.svg" alt="" class="about__line">
+                  <div class="about__box"></div>
+               </div>
+            </div>
+
+            <div class="about__content">
+               <h2 class="section__title-1">
+                  <span>About Me.</span>
+               </h2>
+
+               <p class="about__description">
+                  <!-- ================= EDIT HERE: ABOUT DESCRIPTION ================= -->
+                  <span class="about__description-line"></span>
+                  <span class="about__description-text">Passionate about creating <strong>Web Pages</strong> with
+                     <strong>UI/UX User Interface</strong>, I have years of
+                     experience and many clients are happy
+                     with the projects carried out.</span>
+               </p>
+
+               <ul class="about__list">
+                  <li class="about__item">
+                     <!-- ================= EDIT HERE: SKILLS ================= -->
+                     <span class="about__item-title">My Skills Are:</span> HTML, CSS, JavaScript, React, Git & GitHub,
+                     Bootstrap, Flutter & Figma.
+                  </li>
+               </ul>
+
+               <div class="about__buttons">
+                  <a href="#contact" class="button">
+                     <i class="ri-send-plane-line"></i> Contact Me
+                  </a>
+                  <a href="https://linkedin.com/" target="_blank" class="button__ghost">
+                     <i class="ri-linkedin-box-line"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section">
+
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+         <h2 class="section__title-1">
+            <span>Projects.</span>
+         </h2>
+
+         <div class="projects__container container grid">
+            <!-- Project 1 -->
+            <!-- ================= EDIT HERE: PROJECT 1 ================= -->
+            <article class="projects__card">
+               <div class="projects__image">
+                  <img src="assets/img/project-1.jpg" alt="Restaurant Website" class="projects__img">
+                  <a href="#" class="projects__button button">
+                     <i class="ri-arrow-right-up-line"></i>
+                  </a>
+               </div>
+
+               <div class="projects__content">
+                  <span class="projects__subtitle">Website</span>
+                  <h3 class="projects__title">Restaurant Website</h3>
+                  <p class="projects__description">
+                     Project that you carry out in the design
+                     and structure of the layout, showing the
+                     design at the client's request.
+                  </p>
+               </div>
+
+               <div class="projects__buttons">
+                  <a href="https://github.com/" target="_blank" class="projects__link">
+                     <i class="ri-github-line"></i> View
+                  </a>
+                  <a href="#" target="_blank" class="projects__link">
+                     <i class="ri-dribbble-line"></i> View
+                  </a>
+               </div>
+            </article>
+
+            <!-- Project 2 -->
+            <!-- ================= EDIT HERE: PROJECT 2 ================= -->
+            <article class="projects__card">
+               <div class="projects__image">
+                  <img src="assets/img/project-2.jpg" alt="Yoga App" class="projects__img">
+                  <a href="#" class="projects__button button">
+                     <i class="ri-arrow-right-up-line"></i>
+                  </a>
+               </div>
+
+               <div class="projects__content">
+                  <span class="projects__subtitle">App</span>
+                  <h3 class="projects__title">Yoga App</h3>
+                  <p class="projects__description">
+                     Project that you carry out in the design
+                     and structure of the layout, showing the
+                     design at the client's request.
+                  </p>
+               </div>
+
+               <div class="projects__buttons">
+                  <a href="https://github.com/" target="_blank" class="projects__link">
+                     <i class="ri-github-line"></i> View
+                  </a>
+                  <a href="#" target="_blank" class="projects__link">
+                     <i class="ri-dribbble-line"></i> View
+                  </a>
+               </div>
+            </article>
+
+            <!-- Project 3 -->
+            <!-- ================= EDIT HERE: PROJECT 3 ================= -->
+            <article class="projects__card">
+               <div class="projects__image">
+                  <img src="assets/img/project-3.jpg" alt="Fast Food App" class="projects__img">
+                  <a href="#" class="projects__button button">
+                     <i class="ri-arrow-right-up-line"></i>
+                  </a>
+               </div>
+
+               <div class="projects__content">
+                  <span class="projects__subtitle">App</span>
+                  <h3 class="projects__title">Fast Food App</h3>
+                  <p class="projects__description">
+                     Project that you carry out in the design
+                     and structure of the layout, showing the
+                     design at the client's request.
+                  </p>
+               </div>
+
+               <div class="projects__buttons">
+                  <a href="https://github.com/" target="_blank" class="projects__link">
+                     <i class="ri-github-line"></i> View
+                  </a>
+                  <a href="#" target="_blank" class="projects__link">
+                     <i class="ri-dribbble-line"></i> View
+                  </a>
+               </div>
+            </article>
+         </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+         <div class="contact__container container grid">
+            <div class="contact__data">
+               <h2 class="section__title-1">
+                  <span>Contact Me.</span>
+               </h2>
+
+               <p class="contact__description">
+                  <span class="contact__description-line"></span>
+                  <span class="contact__description-text">I will read all emails. Send me any
+                     message you want and I'll get back to
+                     you.</span>
+               </p>
+
+               <p class="contact__info">
+                  I need your <strong>Name</strong> and <strong>Email Address</strong>, but
+                  you won't receive anything other than your
+                  reply.
+               </p>
+
+               <div class="contact__arrow">
+                  <img src="assets/img/curved-arrow.svg" alt="" class="contact__arrow-img">
+               </div>
+
+               <div class="contact__social">
+                  <p class="contact__social-text">Does not send emails. <br>Write me on my social networks</p>
+                  <div class="contact__social-links">
+                     <a href="https://facebook.com/" target="_blank" class="contact__social-link">
+                        <i class="ri-facebook-circle-line"></i>
+                     </a>
+                     <a href="https://instagram.com/" target="_blank" class="contact__social-link">
+                        <i class="ri-instagram-line"></i>
+                     </a>
+                     <a href="https://linkedin.com/" target="_blank" class="contact__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                     </a>
+                  </div>
+               </div>
+
+               <div class="geometric-box"></div>
+            </div>
+
+            <div class="contact__card">
+               <h3 class="contact__card-title">Send Me A Message</h3>
+
+               <p class="contact__card-description">
+                  This is a demo section. In a real implementation,
+                  you would add a contact form here with fields for:
+               </p>
+
+               <form action="" class="contact__form" id="contact-form">
+                  <div class="contact__form-div">
+                     <input type="text" name="user_name" placeholder="First Name" class="contact__form-input"
+                        id="contact-name" required>
+                  </div>
+
+                  <div class="contact__form-div">
+                     <input type="email" name="user_email" placeholder="Email Address" class="contact__form-input"
+                        id="contact-email" required>
+                  </div>
+
+                  <div class="contact__form-div">
+                     <input type="text" name="user_subject" placeholder="Subject" class="contact__form-input"
+                        id="contact-subject" required>
+                  </div>
+
+                  <div class="contact__form-div contact__form-area">
+                     <textarea name="user_message" placeholder="Message" id="contact-message"
+                        class="contact__form-input"></textarea>
+                  </div>
+
+                  <button type="submit" class="button contact__button">
+                     <i class="ri-send-plane-line"></i> Send Message
+                  </button>
+
+                  <p class="contact__message" id="contact-message-status"></p>
+               </form>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+      <div class="footer__container container grid">
+         <span class="footer__copy">
+            <!-- ================= EDIT HERE: COPYRIGHT NAME ================= -->
+            &#169; Rian Lot. All rights reserved
+         </span>
+      </div>
+   </footer>
+
+   <!--========== SCROLL UP ==========-->
+
+
+   <!--=============== SCROLLREVEAL ===============-->
+   <script src=""></script>
+
+   <!--=============== EMAIL JS ===============-->
+
+
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
+</body>
+
 </html>
