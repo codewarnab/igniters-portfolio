@@ -8,9 +8,9 @@ const projects = [
     {
         img: "assets/img/project-1.jpg",
         subtitle: "Website",
-        title: "Restaurant Website",
+        title: "Somthing here ",
         description:
-            "Project that you carry out in the design and structure of the layout, showing the design at the client's request.",
+            "Here goes project description .",
         githubLink: "https://github.com/",
         deployedLink: "#",
     },
@@ -18,15 +18,6 @@ const projects = [
         img: "assets/img/project-2.jpg",
         subtitle: "App",
         title: "Yoga App",
-        description:
-            "Project that you carry out in the design and structure of the layout, showing the design at the client's request.",
-        githubLink: "https://github.com/",
-        deployedLink: "#",
-    },
-    {
-        img: "assets/img/project-3.jpg",
-        subtitle: "App",
-        title: "Fast Food App",
         description:
             "Project that you carry out in the design and structure of the layout, showing the design at the client's request.",
         githubLink: "https://github.com/",
